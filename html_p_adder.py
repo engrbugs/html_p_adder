@@ -45,8 +45,8 @@ def main():
         if x is not -1:
             if left(line, x).strip().isnumeric():
                 if not firstline:
-                    result += add_string_before + '\n'
                     result += add_string_after + '\n'
+                    result += add_string_before + '\n'
         result += '\t' + line + '\n'
         firstline = None
 
