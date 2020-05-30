@@ -9,6 +9,7 @@ add_string_after = '</p>'
 trigger_character = '.'
 # the Left of the triggered character must be numeric
 
+
 def left(s, amount):
     return s[:amount]
 
